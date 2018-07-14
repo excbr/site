@@ -12,9 +12,15 @@
 
     <!--JS-->
 
+       <script type="text/javascript">
+     //   alert('Olá mundo! Excaliburs (JavaScript!)');
+
+
+      </script>
+
 </head>
 
-<body>
+<body >
     <!--Barra de navegação-->
     <nav class="navbar navbar-light bg-light justify-content-between">
         <a class="navbar-brand" href="index.html">
@@ -110,7 +116,7 @@
                     <h5 class="mt-0 mb-1">Caio Fernando</h5>
                     Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
                 </div>
-                <img class="ml-3 rounded-circle w-25 p-3" src="imagens/caio-foto.jpg" alt="Foto de Caio Fernando">
+                <img class="ml-3 rounded-circle w-25 p-3" src="imagens/caio-foto.jpg" alt="Foto de Caio Fernando" data-toggle="modal" data-target="#myModal" style="cursor: all-scroll">
             </div>
             <div class="media">
                 <img class="mr-3 rounded-circle w-25 p-3" src="imagens/azul-nobre.jpg" alt="Generic placeholder image">
@@ -143,7 +149,43 @@
         </div>
     </div>
     <!--Fim da area dos integrantes-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    
+    <!-- Codigo java Scrip para o Modal -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    
+    <!-- Botão para Ativar o modal -->
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+      Exemplo
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Caio Fernando - 8NA Engenharia da Computação</h4>
+          </div>
+          <div class="modal-body">
+            Oi, meu nome é Caio Fernando estou no 8 periodo de engenharia da computação pela faculdade Mauricio de Nassau - Recife - PE <br>
+            O que me levou a querer está profissão foi o desejo de hackear Tinder das garotas<br>
+            E gostaria de ser FullDeveloper <br>
+            Teho um amigo Chamado Jailton que é gay, isso mesmo ele gosta de ficar tocando todo mundo do grupo nas horas vagas<br>
+            E tenho um amigo chamado jammesson, esse cara é o pica de 25 cm, e jailton adora isso. Pronto é tudo que tenho para falar.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+      
+ </div> 
     <footer id="bg-rodape">
         <div class="rodape">
         <a href="#"><img src="imagens/azul-nobre.jpg" width="50" height="50"></a>
@@ -163,6 +205,9 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+      
 </body>
 
 </html>

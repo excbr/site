@@ -2,3 +2,19 @@
     display: flex;
     justify-content: flex-end;
 }
+
+#fotos{
+    padding-top: 50px;
+    background-color: lightgray;
+}
+#bg-rodape{
+    padding: 50px;
+    background-color: black;
+}
+.rodape{
+    display: flex;
+    justify-content: space-between;
+}
+div>p{
+    color: white;
+}

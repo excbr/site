@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Excalibur</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!--CSS-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/estilo.css">
+
+  <!--JS-->
+  <script type="text/javascript">
+  </script>
+  <!--fim JS-->
+</head>
+
+<body>
+  <!--Barra de navegação-->
+  <nav class="navbar navbar-light bg-light justify-content-between">
+    <a class="navbar-brand" href="index.html">
+      <!--Logo-->
+      <img src="imagens/azul-nobre.jpg" width="50" height="50" alt="">
+      <!--Imagem do Logo-->
+      EXCalibur
+      <!--Texto do logo-->
+    </a>
+    <!--Fim do logo-->
+    <a class="btn btn-outline-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Menu
+            <span class="navbar-toggler-icon"></span>
+        </a>
+  </nav>
+  <!--Fim da barra de navegação-->
+  <div class="collapse" id="collapseExample">
+    <div class="card card-body">
+      <div id="justificacao">
+        <a class="dropdown-item" href="#">Artigos</a>
+        <a class="dropdown-item" href="#">Materiais</a>
+        <a class="dropdown-item" href="#">Sobre</a>
+        <a class="dropdown-item" href="#">Contato</a>
+      </div>
+    </div>
+  </div>
+  <!--Formulario de contado-->
+  <div id="formulario" class="formulario">
+    <form name="form" method="post" action="php/enviar.php">
+      <div>
+        <h2>Contato</h2></div>
+      <div class="nome">
+        <label>Nome</label>
+        <input name="nome" placeholder="" required="required">
+      </div>
+      <div class="telefone">
+        <label>Telefone</label>
+        <input type="Telefone" name="telefone" required="required">
+      </div>
+      <div class="email">
+        <label>Email</label>
+        <input name="email" type="email" placeholder="" required="required">
+      </div>
+      <div class="mensagem">
+        Mensagem<textarea name="message" placeholder="" required="required"></textarea>
+      </div>
+      <div class="enviar">
+        <input type="submit" name="enviar" value="Enviar">
+      </div>
+    </form>
+
+  </div>
+
+  <!--fim do Formulario-->
+
+  <footer id="bg-rodape">
+    <div class="rodape">
+      <a href="#"><img src="imagens/azul-nobre.jpg" width="50" height="50"></a>
+      <p>Produced By EXCalibur | © Copyright</p>
+      <div>
+        <p>Siga nas redes sociais:</p>
+        <div id="sociais">
+          <a href="#"><img src="imagens/face.jpg"></a>
+          <a href="#"><img src="imagens/instagram.jpg"></a>
+          <a href="#"><img src="imagens/twitter.jpg"></a>
+          <a href="#"><img src="imagens/youtube.jpg"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

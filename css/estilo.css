@@ -18,3 +18,51 @@
 div>p{
     color: white;
 }
+
+/*Pagina do Contato*/
+#formulario{
+  margin: 0;
+  padding: 50px 50px 50px 50px;
+  background: grey;
+  color:black;
+}
+
+ form{
+  padding: 0 10px 10px 10px;
+  margin: 0 auto;
+  font-size: 16px;
+  max-width: 400px;
+  background: lightgray;
+  border-radius: 5px;
+  border: 1px darkgrey solid;
+}
+input, textarea{
+  border-radius: 1px solid;
+  border-color: darkgrey;
+}
+input{
+  width: 380px;
+  height: 35px;
+  padding: 8px;
+}
+textarea{
+  width: 380px;
+  height: 100px;
+  padding: 8px;
+  line-height: 20px;
+}
+.enviar input{
+  background: white;
+  height: 40px;
+  width: 140px;
+  font-weight: normal;
+  border-radius: 5px;
+  border: 3px lightblue solid;
+  color: black;
+  cursor: pointer;
+}
+.enviar input:hover{
+  background: #4183D7;
+  color: white;
+  }
+/*Fim Pagina do Contato*/

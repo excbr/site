@@ -1,3 +1,10 @@
+* {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* Pagina Inicial */
+
+/* Ids */
 #justificacao {
     display: flex;
     justify-content: flex-end;
@@ -7,6 +14,12 @@
     padding: 50px;
     background-color: black;
 }
+
+#bg-rodape p {
+  color: white;
+}
+
+/* Classes */
 .rodape{
     display: flex;
     justify-content: space-between;
@@ -22,9 +35,71 @@
     background-color: lightgray;
 }
 
-div>p{
-    color: white;
+.box-fotos {
+  position: relative;
+  width: 350px;
+  overflow: hidden;
 }
+
+.box-fotos > img {
+  width: 100%;
+  border-radius: 2px;
+  -webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+      -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+        -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+          transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+}
+
+.box-fotos:hover > img {
+  -webkit-transform: scale(1.7);
+	   -moz-transform: scale(1.7);
+	    -ms-transform: scale(1.7);
+	     -o-transform: scale(1.7);
+          transform: scale(1.7);
+}
+
+.box-fotos .retina {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  text-align: center;
+  padding: 30px;
+  -webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+      -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+        -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+          transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+}
+
+.box-fotos:hover .retina {
+  opacity: 1;
+  box-shadow: inset 0 0 100px 50px rgba(0, 0, 0, 0.5)
+}
+
+.box-fotos .retina p {
+  color: #fff;
+  cursor: default;
+}
+
+.box-fotos .retina a {
+  display: block;
+  width: 150px;
+  background: #4183D7;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 15px;
+  margin: 16px auto 0;
+}
+/*Fim da pagina inicial*/
 
 /*Pagina do Contato*/
 #formulario{

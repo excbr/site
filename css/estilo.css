@@ -118,10 +118,7 @@
   border-radius: 5px;
   border: 1px darkgrey solid;
 }
-input, textarea{
-  border-radius: 1px solid;
-  border-color: darkgrey;
-}
+
 input{
   width: 380px;
   height: 35px;

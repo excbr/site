@@ -9,13 +9,19 @@
     <!--CSS-->
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/estilo.css">
+    <link href="imagens/logoexcbr.png" type="image/png" rel="icon" />
+
+    
 
 </head>
 
 <body>
     <!--Barra de navegação-->
-    <nav class="navbar navbar-light bg-light justify-content-between">
+    <nav class="navbar navbar-light bg-light justify-content-between" style="position: fixed; width: 100%; z-index: 1;">
         <a class="navbar-brand" href="index.html">
             <!--Logo-->
             <img src="imagens/azul-nobre.jpg" width="50" height="50" alt="">
@@ -24,22 +30,26 @@
             <!--Texto do logo-->
         </a>
         <!--Fim do logo-->
-        <a class="btn btn-outline-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+        
+        <a class="btn btn-outline-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" 
+        style="position: static; top: 10%; left: 25%">
             Menu
             <span class="navbar-toggler-icon"></span>
         </a>
-    </nav>
-    <!--Fim da barra de navegação-->
-    <div class="collapse" id="collapseExample">
-        <div class="card card-body">
-            <div id="justificacao">
-                <a class="dropdown-item" href="#">Materiais</a>
-                <a class="dropdown-item" href="#portfolio">Portfólio</a>
-                <a class="dropdown-item" href="#sobre">Sobre</a>
-                <a class="dropdown-item" href="contato.html">Contato</a>
+        <div class="collapse" id="collapseExample" style="position: fixed;top: 15%; left: 25%">
+            <div class="card card-body">
+                <div id="justificacao">
+                    <a class="dropdown-item" href="#">Materiais</a>
+                    <a class="dropdown-item" href="#portfolio">Portfólio</a>
+                    <a class="dropdown-item" href="#sobre">Sobre</a>
+                    <a class="dropdown-item" href="contato.html">Contato</a>
+                </div>
             </div>
         </div>
+    
     </div>
+   
+    </nav>
 
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <!--Slide em carrosel-->
@@ -141,17 +151,40 @@
             </div>
         </div>
     </div>
+        <!--Fim da area dos integrantes-->
+
 
     <div class="background" id="portfolio">
         <h3>Portfolio da EXCalibur</h3>
     </div>
+  <!-- Container (About Section) -->
+    <div class=" background" id="sobre">
+        <div class="w3-content w3-container w3-padding-64">
+      <h3 class="w3-center">Empresa Excbr</h3>
+      <p class="w3-center"><em>Historia </em></p>
+      <p>A empresa Excalibur Desenvolvedores Brasil Tecnolgia, deu inicio da sua criação com ideia de 6 engenheiros da computação em formação academico, sendo eles: 
+         Breno Américo, Caio Fernando , Jailton Lima, Jammesson Cabral, Jucelino Maciel e Wellington Monteiro. <br>
 
-    <div class="background" id="sobre">
-        <h3>Sobre a EXCalibur</h3>
-    </div>
-
-    <!--Fim da area dos integrantes-->
-
+      </p>
+      <div class="w3-row">
+        
+    
+        <!-- Hide this text on small devices -->
+        <div class="w3-col m6 w3-hide-small w3-padding-large">
+          <p>Bem vindo a nosso site, vamos repassar algumas informações agora sobre nossos serviços. <br>
+            A emprsa Excalibur trabalha com dois pilares fortes na parte de Desenvolvimento Desktop e Web. Qual a diferença entre eles: <br>
+            Desenvolvimento Desktop: É para criação de programas para computadores Off-Line que não precisa de internet para funcionar se comunica na maioria dos casos pela rede interna da sua empresa. <br>
+            Desenvilvimento Web: É para criação de sites, formularios , Sistemas na Web, que são mais pra quem utiliza a internet para acessar dando mais flexibilidade ao seu sistema.
+        </p>
+        </div>
+        <div class="w3-col m6 w3-center w3-padding-large">
+                <p><b><i class="fa fa-user w3-margin-right"></i>Excalibur Brasil Tecnologia</b></p><br>
+                <img src="imagens/logoexcbr.png" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+              </div>
+      </div>
+     
+</div>
+</div>
     <footer id="bg-rodape">
         <div class="rodape">
         <a href="#"><img src="imagens/azul-nobre.jpg" width="50" height="50"></a>

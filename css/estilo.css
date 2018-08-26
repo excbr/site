@@ -19,10 +19,32 @@
   color: white;
 }
 
+#sobre {
+  padding-top: 0rem;
+  margin-top: 0rem;
+}
+
 /* Classes */
+.content {
+  padding-top: 5.94%;
+}
+
+
 .rodape{
     display: flex;
     justify-content: space-between;
+}
+
+.navbar {
+  position: fixed !important;
+  width: 100% !important;
+  z-index: 1 !important;
+}
+
+.menu {
+  position: fixed;
+  top: 8.91%;
+  right: 0;
 }
 
 .fotos-flex {

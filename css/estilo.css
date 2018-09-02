@@ -108,6 +108,23 @@
   cursor: default;
 }
 
+.simboloarquivo {
+  position:relative;
+  left:45%;
+  top:50%;
+  }
+
+.formportfolio{
+  padding: 0 10px 10px 10px;
+  margin: 0 auto;
+  font-size: 16px;
+  max-width: 80%;
+  height: 250px;
+  background: lightgray;
+  border-radius: 5px;
+  border: 1px darkgrey solid;
+}
+
 /*Fim da pagina inicial*/
 
 /*Pagina do Contato*/

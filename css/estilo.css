@@ -137,10 +137,9 @@
 }
 
 form{
-  padding: 0 1.25em 1.25em 1.25em;
+  padding: 0 10px 10px 10px;
   margin: 0 auto;
-  font-size: 1em;
-  max-width: 25em;
+  font-size: 16px;
   background: lightgray;
   border-radius: 5px;
   border: 1px darkgrey solid;
@@ -177,3 +176,4 @@ textarea{
   color: white;
   }
 /*Fim Pagina do Contato*/
+

@@ -131,55 +131,9 @@
   border: 1px darkgrey solid;
 }
 
+#contato {
+  padding: 0 20% 0 20%;
+  background-color: white;
+}
+
 /*Fim da pagina inicial*/
-
-/*Pagina do Contato*/
-
-#formulario{
-  margin: 0;
-  padding: 4.5625em 3.125em 5.33em 3.125em;
-  background: lightgrey;
-  color:black;
-}
-
-form{
-  padding: 0 10px 10px 10px;
-  margin: 0 auto;
-  font-size: 16px;
-  background: lightgray;
-  border-radius: 5px;
-  border: 1px darkgrey solid;
-}
-
-form h3 {
-  padding-top: 0.9375em;
-  text-align: center;
-}
-
-input{
-  width: 22.5em;
-  height: 2.1875em;
-  padding: 0.5em;
-}
-textarea{
-  width: 22.5em;
-  height: 6.25em;
-  padding: 0.5em;
-  line-height: 1.25em;
-}
-.enviar input{
-  background: white;
-  height: 2.5em;
-  width: 8.75em;
-  font-weight: normal;
-  border-radius: 5px;
-  border: 3px lightblue solid;
-  color: black;
-  cursor: pointer;
-}
-.enviar input:hover{
-  background: #4183D7;
-  color: white;
-  }
-/*Fim Pagina do Contato*/
-

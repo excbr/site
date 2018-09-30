@@ -48,7 +48,7 @@
 
 .menu {
   position: fixed;
-  top: 8.91%;
+  top: 7.1%;
   right: 0;
 }
 
@@ -132,8 +132,15 @@
 }
 
 #contato {
-  padding: 0 20% 0 20%;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#fieldset {
   background-color: white;
+  width: 35%;
 }
 
 /*Fim da pagina inicial*/

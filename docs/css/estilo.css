@@ -1,0 +1,154 @@
+* {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* Pagina Inicial */
+
+/* Ids */
+
+.carousel{
+  width: 100%;
+  height: 52%;
+}
+
+#justificacao {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#bg-rodape{
+    padding: 3.125em;
+    background-color: black;
+}
+
+#bg-rodape p {
+  color: white;
+}
+
+#sobre {
+  padding-top: 0rem;
+  margin-top: 0rem;
+}
+
+/* Classes */
+.content {
+  padding-top: 0%;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+  position: fixed !important;
+  width: 100% !important;
+  z-index: 1 !important;
+}
+
+.card-body {
+  padding: 0 !important;
+}
+
+.dropdown-item {
+  text-align: center;
+}
+
+.menu {
+  position: fixed;
+  top: 6.27%;
+  right: 0;
+}
+
+.fotos-flex {
+  display: flex;
+}
+
+.background{
+    padding-top: 3.125em;
+    padding-bottom: 0.125em;
+    background-color: lightgray;
+}
+
+.box-fotos {
+  position: relative;
+  width: 350px;
+  overflow: hidden;
+}
+
+.box-fotos > img {
+  width: 100%;
+  border-radius: 2px;
+  -webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+      -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+        -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+          transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+}
+
+.box-fotos:hover > img {
+  -webkit-transform: scale(1.7);
+	   -moz-transform: scale(1.7);
+	    -ms-transform: scale(1.7);
+	     -o-transform: scale(1.7);
+          transform: scale(1.7);
+}
+
+.box-fotos .retina {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  text-align: center;
+  padding: 1.875em;
+  -webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+      -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+        -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+          transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+}
+
+.box-fotos:hover .retina {
+  opacity: 1;
+  box-shadow: inset 0 0 100px 50px rgba(0, 0, 0, 0.5)
+}
+
+.box-fotos .retina p {
+  color: #fff;
+  cursor: default;
+}
+
+.simboloarquivo {
+  position:relative;
+  left:45%;
+  top:50%;
+  }
+
+.formportfolio{
+  padding: 0 10px 10px 10px;
+  margin: 0 auto;
+  font-size: 16px;
+  max-width: 80%;
+  height: 250px;
+  background: lightgray;
+  border-radius: 5px;
+  border: 1px darkgrey solid;
+}
+
+#contato {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#fieldset {
+  background-color: white;
+  width: 35%;
+}
+
+/*Fim da pagina inicial*/

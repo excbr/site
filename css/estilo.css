@@ -46,9 +46,17 @@
   z-index: 1 !important;
 }
 
+.card-body {
+  padding: 0 !important;
+}
+
+.dropdown-item {
+  text-align: center;
+}
+
 .menu {
   position: fixed;
-  top: 7.1%;
+  top: 6.27%;
   right: 0;
 }
 

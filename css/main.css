@@ -121,7 +121,13 @@ button:hover {
 iframe {
   border: none !important;
 }
+.collor-exc{
+  background:#E67E22;
 
+}
+.shadow-modal-img {
+  box-shadow:  10px 10px 100px 4px rgba(255, 255, 255, 0.7),10px 4px 8px 0 rgba(255, 255, 255, 1);
+}
 
 
 

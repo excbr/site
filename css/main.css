@@ -138,7 +138,6 @@ iframe {
   width: 100%;
   min-height: 100%;
   padding: 15px;
-
   background:#E67E22;
   /*background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
   background: -o-linear-gradient(left, #0072ff, #00c6ff);
@@ -156,7 +155,8 @@ iframe {
 }
 
 .container-contact1 {
-  width: 1163px;
+  width: 1000px;
+  height: 630px;
   background: #fff;
   border-radius: 10px;
   overflow: hidden;

@@ -30,7 +30,7 @@ display: flex;
 #sobre {
   padding-top: 4%;
   margin-top: 4%;
-  background:lightgray;
+  /*  background:lightgray; */
 }
 
 /* Classes */
@@ -68,11 +68,13 @@ display: flex;
 }
 
 .background{
-    padding-top: 3.125em;
+    /* padding-top: 3.125em;
     padding-bottom: 0.125em;
-    background-color: lightgray;
+    background-color: lightgray; */
+    background-image: url("background4.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-
 .box-fotos {
   position: relative;
   width: 350px;
@@ -104,7 +106,7 @@ display: flex;
   top: 0;
   left: 0;
   opacity: 0;
-  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+  /*  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5); */
   border-radius: 5px;
   text-align: center;
   padding: 1.875em;
@@ -135,7 +137,7 @@ display: flex;
   font-size: 16px;
   max-width: 80%;
   height: 250px;
-  background: lightgray;
+  /* background: lightgray; */
   border: 1px darkgrey solid;
 }
 

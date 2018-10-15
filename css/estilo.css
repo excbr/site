@@ -11,11 +11,10 @@
   height: 52%;
 }
 .icon {
-  height: 100px;
-  border: 
+  height: 50px;
 }
 #justificacao {
-    display: flex;
+display: flex;
     justify-content: flex-end;
 }
 

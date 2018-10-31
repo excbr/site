@@ -16,7 +16,7 @@
 </head>
 <body class="background">
 
-    <!--Navbar-->
+    <!--Navbar
     <nav class="navbar navbar-light justify-content-between">
         <a class="navbar-brand" href="index.html">
             <img src="imagens/12345.png" height="50" alt="">
@@ -36,18 +36,39 @@
             </div>
         </div>
     </nav>
+    fim navbar-->
+
+    <!--navbar teste-->
+
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <!-- Brand -->
+                <a class="navbar-brand" href="index.html">
+                    <img src="imagens/123456.png" height="50" alt="Excalibur Br">
+                    Excalibur
+                </a>
+                <!-- Links -->
+                <ul class="navbar-nav">
+              
+                  <!-- Dropdown -->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                      Menu
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#portfolio">Trabalhos</a>
+                      <a class="dropdown-item" href="#sobre">Sobre</a>
+                      <a class="dropdown-item" href="#contato">Contato</a>
+                    </div>
+                  </li>
+                </ul>
+              </nav>
+    <!--fim navbar teste-->
 
     <!--Conteúdo-->
     <div class="content">
         <!--Slide em carrosel-->
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <!--Indicadores do slide-->
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-            </ol>
+            
             <div class="carousel-inner">
                 <!--Fotos dos slides-->
                 <div class="carousel-item active">
@@ -89,12 +110,12 @@
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev" >
                 <!--Botao para voltar-->
-                <span class="carousel-control-prev-icon icon" style="width: 200px;" aria-hidden="true"></span>
+                <span class="carousel-control-prev-icon icon"  aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
             <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
                 <!--Botão para avançar-->
-                <span class="carousel-control-next-icon icon" style="width: 200px;" aria-hidden="true"></span>
+                <span class="carousel-control-next-icon icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
         </div><br>
@@ -146,14 +167,15 @@
                 </div>
             </div>
         </div>
-
+        <br><br><br>
         <!--Portifólio-->
         <div class="background" id="portfolio">
-            <img class="simboloarquivo" src="imagens/harddisk.png" alt="Generic placeholder image">	
+           
             <div class="formportfolio">
                   
             </div>
         </div>
+        <br><br><br><br>
              <!-- INICIO IMAGEM FLUXOGRAMA -->
             <div>
                   <img src="imagens/oi.png" class="img-fluid" alt="Responsive image">
@@ -171,7 +193,7 @@
         <br><br>
 
     
-		<div class="card-deck" style="width: 100%;">
+		<div class="card-deck" style="width: 100%; margin: 0;">
 
 		  <div class="card" style="background: wheat; border-radius: 20px;">
 		    <img class="card-img-top" src="imagens/erp.png" alt="Card image cap"  style="width: 20%;">
@@ -187,10 +209,11 @@
           </div>
           
 		  <div class="card" style="background: wheat; border-radius: 20px;">
-		    <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+		    <img class="card-img-top" src="imagens/mobileicon.png" alt="Card image cap" style="width: 20%;">
 		    <div class="card-body text-info">
-		    <h5 class="card-title">Info card title</h5>
-		    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		    <h5 class="card-title">Mobile</h5>
+            <p class="card-text">Desenvolvimento de aplicações mobile somente para android.</p>
+            <img class="card-img-top" src="imagens/android.png" alt="Card image cap" style="width: 10%;">
 		  </div>
 		    <div class="card-footer">
 		      <small class="text-muted"></small>
@@ -198,10 +221,12 @@
           </div>
           
 		  <div class="card" style="background: wheat; border-radius: 20px;">
-		    <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+		    <img class="card-img-top" src="imagens/webicon.png" alt="Card image cap" style="width: 20%;">
 		    <div class="card-body text-info">
-		    <h5 class="card-title">Info card title</h5>
-		    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		    <h5 class="card-title">Web</h5>
+		    <p class="card-text">Criamos sites para que você possa apresentar seu negócio na rede e atrair clientes. Assim como Sistemas de gerenciamento  
+               web de acordo com os requisitos apresentados por você, cliente.
+            </p>
 		  </div>
 		    <div class="card-footer">
 		      <small class="text-muted"></small>
@@ -230,7 +255,7 @@
                 <br><br>
                 Desenvolvimento Desktop: É para criação de programas onde você cliente não quer usar a internet para controlar seu negócio. Essa forma de projeto se comunica na maioria dos casos pela rede interna da sua empresa.
                 <br>
-                Desenvilvimento Web:  Criação de sites, formulários , Sistemas de gerenciamento na Web. É necessário uma conexão com a internet para acessar tanto o sistema quanto os dados. Dando assim, mais flexibilidade ao seu sistema, pois poderá usá-lo em qualquer lugar que provenha de internet.
+                Desenvolvimento Web:  Criação de sites, formulários , Sistemas de gerenciamento na Web. É necessário uma conexão com a internet para acessar tanto o sistema quanto os dados. Dando assim, mais flexibilidade ao seu sistema, pois poderá usá-lo em qualquer lugar que provenha de internet.
                 <br><br>
                 Procuramos manter um trabalho tendo o acompanhamento do cliente para que tudo possa sair como solicitado. Garantindo assim total satisfação. 
                 </p>
@@ -258,7 +283,7 @@
                 <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: excbrso@gmail.com.br</p>
             </div>
 
-            <form class="contact1-form validate-form">
+            <form class="contact1-form validate-form" id="formcontato">
                <span class="contact1-form-title">
                     <a><img src="imagens/email.png"></a>
                 </span>
@@ -284,7 +309,7 @@
                 </div>
 
                 <div class="container-contact1-form-btn">
-                    <button class="contact1-form-btn">
+                    <button class="contact1-form-btn" id="enviarformulario">
                         <span>
                             Enviar
                             <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
@@ -294,6 +319,25 @@
             </form>
         </div>
     </div>
+
+    <!--script formulario-->
+    <script>
+    $("#enviarformulario").click(function(){
+            $.ajax({
+                type: "POST",
+                url: "email.php",
+                data: $("#formcontato").serialize(),
+                success: function(data){
+                    $("#").html(data);
+                }
+            });
+        });
+        /*setTimeout(function() {
+        $('#msg').fadeOut('fast');
+    }, 2000);*/
+    </script>
+    <!--fim script formulario-->
+
     <!-- FIM CONTATO!-->
     
     <!-- Modal -->

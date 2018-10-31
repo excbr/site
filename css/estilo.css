@@ -13,10 +13,6 @@
 .icon {
   height: 50px;
 }
-#justificacao {
-display: flex;
-    justify-content: flex-end;
-}
 
 #bg-rodape{
     padding: 3.125em;
@@ -35,7 +31,7 @@ display: flex;
 
 /* Classes */
 .content {
-  padding-top: 0%;
+  padding-top: 5%;
 }
 
 .rodape{
@@ -47,6 +43,7 @@ display: flex;
   position: fixed !important;
   width: 100% !important;
   z-index: 1 !important;
+  font-size: 100px !important;
 }
 
 .card-body {
@@ -57,12 +54,6 @@ display: flex;
   text-align: center;
 }
 
-.menu {
-  position: fixed;
-  top: 6.27%;
-  right: 0;
-}
-
 .fotos-flex {
   display: flex;
 }
@@ -71,7 +62,7 @@ display: flex;
     /* padding-top: 3.125em;
     padding-bottom: 0.125em;
     background-color: lightgray; */
-    background-image: url("background4.jpeg");
+    background-image: url("background5.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -128,7 +119,7 @@ display: flex;
 }
 
 .simboloarquivo {
- margin-left: 45%;
+
 
   }
 

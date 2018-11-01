@@ -1,50 +1,16 @@
-
-
-
-
-/*//////////////////////////////////////////////////////////////////
-[ FONT ]*/
-
-@font-face {
-  font-family: Montserrat-Regular;
-  src: url('../fonts/montserrat/Montserrat-Regular.ttf'); 
-}
-
-@font-face {
-  font-family: Montserrat-Bold;
-  src: url('../fonts/montserrat/Montserrat-Bold.ttf'); 
-}
-
-@font-face {
-  font-family: Montserrat-ExtraBold;
-  src: url('../fonts/montserrat/Montserrat-ExtraBold.ttf'); 
-}
-
-@font-face {
-  font-family: Montserrat-Medium;
-  src: url('../fonts/montserrat/Montserrat-Medium.ttf'); 
-}
-
-
-
 /*//////////////////////////////////////////////////////////////////
 [ RESTYLE TAG ]*/
 
-* {
-  margin: 0px; 
-  padding: 0px; 
-  box-sizing: border-box;
-}
+
 
 body, html {
   height: 100%;
-  font-family: Montserrat-Regular, sans-serif;
-
+  font-size: 16px;
 }
 
 /*---------------------------------------------*/
 a {
-  font-family: Montserrat-Regular;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 14px;
   line-height: 1.7;
   color: #666666;
@@ -70,7 +36,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
-  font-family: Montserrat-Regular;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 14px;
   line-height: 1.7;
   color: #666666;
@@ -136,6 +102,7 @@ iframe {
 [ Contact 1 ]*/
 
 .contact1 {
+  margin-top: 1em;
   width: 100%;
   min-height: 100%;
   padding: 15px;
@@ -193,7 +160,7 @@ iframe {
 
 .contact1-form-title {
   display: block;
-  font-family: Montserrat-ExtraBold;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 24px;
   color: #333333;
   line-height: 1.2;
@@ -223,7 +190,7 @@ textarea.input1 + .shadow-input1 {
 .wrap-input1 {
   position: relative;
   width: 100%;
-  z-index: 1;
+  z-index: 0;
   margin-bottom: 20px;
 }
 
@@ -231,7 +198,7 @@ textarea.input1 + .shadow-input1 {
   display: block;
   width: 100%;
   background: #e6e6e6;
-  font-family: Montserrat-Bold;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 15px;
   line-height: 1.5;
   color: #666666;
@@ -285,7 +252,7 @@ textarea.input1 + .shadow-input1 {
   height: 50px;
   border-radius: 25px;
   background: #57b846;
-  font-family: Montserrat-Bold;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 15px;
   line-height: 1.5;
   color: #fff;
@@ -400,7 +367,7 @@ textarea.input1 + .shadow-input1 {
   right: 8px;
   pointer-events: none;
 
-  font-family: Montserrat-Medium;
+  font-family: 'Ubuntu', sans-serif;
   color: #c80000;
   font-size: 13px;
   line-height: 1.4;
@@ -417,7 +384,7 @@ textarea.input1 + .shadow-input1 {
 
 .alert-validate::after {
   content: "\f06a";
-  font-family: FontAwesome;
+  font-family: 'Ubuntu', sans-serif;
   display: block;
   position: absolute;
   color: #c80000;

@@ -1,319 +1,444 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <title>Excalibur</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="imagens/12345.png" type="image/png" rel="icon" />
 
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" type="text/css" href="css/util.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link href="imagens/12345.png" type="image/png" rel="icon" />
 
 </head>
+
 <body class="background">
 
-    <!--Navbar
-    <nav class="navbar navbar-light justify-content-between">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <a class="navbar-brand" href="index.html">
-            <img src="imagens/12345.png" height="50" alt="">
+            <img src="imagens/123456.png" height="50" alt="Excalibur BR">
             Excalibur
         </a>
-        <a class="btn btn-outline-dark" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" style="width:15%">
-            Menu
-            <span class="navbar-toggler-icon"></span>
-        </a>
-        <div class="collapse menu" id="collapseExample">
-            <div class="card card-body" style="width:400px;">
-                <div id="justificacao">
-                    <a class="dropdown-item" href="#portfolio">Portfólio</a>
+        <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Menu
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#portfolio">Trabalhos</a>
                     <a class="dropdown-item" href="#sobre">Sobre</a>
                     <a class="dropdown-item" href="#contato">Contato</a>
                 </div>
-            </div>
-        </div>
+            </li>
+        </ul>
     </nav>
-    fim navbar-->
 
-    <!--navbar teste-->
-
-            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-                <!-- Brand -->
-                <a class="navbar-brand" href="index.html">
-                    <img src="imagens/123456.png" height="50" alt="Excalibur Br">
-                    Excalibur
-                </a>
-                <!-- Links -->
-                <ul class="navbar-nav">
-              
-                  <!-- Dropdown -->
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                      Menu
-                    </a>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#portfolio">Trabalhos</a>
-                      <a class="dropdown-item" href="#sobre">Sobre</a>
-                      <a class="dropdown-item" href="#contato">Contato</a>
-                    </div>
-                  </li>
-                </ul>
-              </nav>
-    <!--fim navbar teste-->
-
-    <!--Conteúdo-->
     <div class="content">
-        <!--Slide em carrosel-->
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            
             <div class="carousel-inner">
-                <!--Fotos dos slides-->
                 <div class="carousel-item active">
                     <a href="#">
-                    <img class="d-block w-100" src="imagens/mobile.png" alt="Primeiro slide">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h1></h1>
-                        <p></p>
-                    </div>
+                        <img class="d-block w-100" src="imagens/mobile.png" alt="Primeiro slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1></h1>
+                            <p></p>
+                        </div>
                     </a>
                 </div>
                 <div class="carousel-item">
                     <a href="#">
-                    <img class="d-block w-100" src="imagens/linguagens.png" alt="Segundo slide">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h1></h1>
-                        <p></p>
-                    </div>
+                        <img class="d-block w-100" src="imagens/linguagens.png" alt="Segundo slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1></h1>
+                            <p></p>
+                        </div>
                     </a>
                 </div>
                 <div class="carousel-item">
                     <a href="#">
-                    <img class="d-block w-100" src="imagens/softwares.jpg" alt="Terceiro slide">
-                    <div class="carousel-caption d-noe d-md-block">
-                       <h1></h1>
-                        <p></p>
-                    </div>
+                        <img class="d-block w-100" src="imagens/softwares.jpg" alt="Terceiro slide">
+                        <div class="carousel-caption d-noe d-md-block">
+                            <h1></h1>
+                            <p></p>
+                        </div>
                     </a>
                 </div>
                 <div class="carousel-item">
                     <a href="#">
-                    <img class="d-block w-100" src="imagens/plataformas.png" alt="Segundo slide">
-                            <div class="carousel-caption d-none d-md-block">
-                        <h1></h1>
-                        <p></p>
-                    </div>
+                        <img class="d-block w-100" src="imagens/plataformas.png" alt="Segundo slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1></h1>
+                            <p></p>
+                        </div>
                     </a>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev" >
-                <!--Botao para voltar-->
-                <span class="carousel-control-prev-icon icon"  aria-hidden="true"></span>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
             <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <!--Botão para avançar-->
                 <span class="carousel-control-next-icon icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
-        </div><br>
-
-        <!--Integrantes-->
-        <div class="background">
-            <div class="fotos-flex">
-                <div class="box-fotos">
-                    <img class="rounded-circle w-100 p-3" src="imagens/breno-foto.jpg" alt="Generic placeholder image">
-                    <div class="retina">
-                        <p>Breno Américo</p>
-                        <button class="btn btn-primary" data-toggle="modal" data-target="#myModalBreno">Saiba mais</button>
-                    </div>
-                </div>
-                <div class="box-fotos">
-                    <img class="rounded-circle w-100 p-3" src="imagens/caio-foto.jpeg" alt="Foto de Caio Fernando">
-                    <div class="retina">
-                       <p>Caio Fernando</p>
-                        <button class="btn btn-primary" data-toggle="modal" data-target="#myModalCaio">Saiba mais</button>
-                    </div>
-                </div>
-                <div class="box-fotos">
-                    <img class="rounded-circle w-100 p-3" src="imagens/jaiton-foto.jpeg" alt="Generic placeholder image">
-                    <div class="retina">
-                        <p>Jailton Lima</p>
-                        <button class="btn btn-primary" data-toggle="modal" data-target="#myModalJailton">Saiba mais</button>
-                    </div>
-                </div>
-                <div class="box-fotos">
-                    <img class="rounded-circle w-100 p-3" src="imagens/jam-foto.png" alt="Generic placeholder image">
-                    <div class="retina">
-                        <p>Jammessom Cabral</p>
-                        <button class="btn btn-primary" data-toggle="modal" data-target="#myModalJam">Saiba mais</button>
-                    </div>
-                </div>
-                <div class="box-fotos">
-                    <img class="rounded-circle w-100 p-3" src="imagens/jucelino-foto.jpg" alt="Generic placeholder image">
-                    <div class="retina">
-                        <p>Jucelino Maciel</p>
-                        <button class="btn btn-primary" data-toggle="modal" data-target="#myModalJucelino">Saiba mais</button>
-                    </div>
-                </div>
-                <div class="box-fotos">
-                    <img class="rounded-circle w-100 p-3" src="imagens/well-foto.jpeg" alt="Generic placeholder image">
-                    <div class="retina">
-                        <p>Wellington Monteiro</p>
-                        <button class="btn btn-primary" data-toggle="modal" data-target="#myModalWell">Saiba mais</button>
-                    </div>
-                </div>
-            </div>
         </div>
-
-<!-- HISTORIA -->
-<div class="background">
-    
-        <div class="card-body background" style="width: 50%; margin-left: 25%">
-          <img class="card-img-top" src="imagens/logo3.png" alt="Card image cap">
-          <div class="text-center">
-          <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modalhistoria">História</a>
-        </div>
-        </div>
-        
-      
-    <br>
-      <!--FIM HISTORIA-->
-       <!-- inicio CARD DE SERVICOS -->
-		<div class="card-deck ">
-
-            <div class="card" style=" border-radius: 20px;">
-              <img class="card-img-top" src="imagens/erp.png" alt="Card image cap"  style="width: 20%;">
-              <div class="card-body text-info">
-              <h5 class="card-title">Sistema Integrado de Gestão Empresarial.</h5>
-              <p class="card-text">  
-                  O ERP é um software que melhora a gestão das empresas, automatizando os processos e integrando as atividades 
-                  de Vendas, Finanças, Contabilidade, Fiscal, Estoque, Compras, Recursos Humanos, Produção e Logística.</p>
-            </div>
-              <div class="card-footer">
-                <small class="text-muted"></small>
-              </div>
-            </div>
-            
-            <div class="card" style=" border-radius: 20px;">
-              <img class="card-img-top" src="imagens/mobileicon.png" alt="Card image cap" style="width: 12%;">
-              <div class="card-body text-info">
-              <h5 class="card-title">Mobile</h5>
-              <p class="card-text">Trabalhamos com Desenvolvimento para aplicativos Hibridos, onde o mesmo funciona para todas as plataformas
-                  seja , Android , Iphone , Tablet, Ipad etc.</p>
-              <img class="card-img-top" src="imagens/android.png" alt="Card image cap" style="width: 10%;">
-              <img class="card-img-top" src="imagens/macos.png" alt="Card image cap" style="width: 10%;">
-
-            </div>
-              <div class="card-footer">
-                <small class="text-muted"></small>
-              </div>
-            </div>
-            
-            <div class="card" style=" border-radius: 20px;">
-              <img class="card-img-top" src="imagens/webicon.png" alt="Card image cap" style="width: 20%;">
-              <div class="card-body text-info">
-              <h5 class="card-title">Web</h5>
-              <p class="card-text">Criamos sites para que você possa apresentar seu negócio na rede e atrair clientes. Assim como Sistemas de gerenciamento  
-                 web de acordo com os requisitos apresentados por você, cliente.
-              </p>
-            </div>
-              <div class="card-footer">
-                <small class="text-muted"></small>
-              </div>
-            </div>
-            
-          </div> <br><br>
-                  <!-- FIM CARD DE SERVICOS -->
-
-        <!--Portifólio-->
-        <div class="background text-center" id="portfolio">
-           <h4>Portifólio</h4>
-            <div class="formportfolio">
-                  
-            </div>
-        </div>
-        <br><br><br><br>
-        <!-- FIM PORTIFOLIO-->
-             <!-- INICIO IMAGEM FLUXOGRAMA -->
-            <div>
-                  <img src="imagens/oi.png" class="img-fluid" alt="Responsive image">
-            </div>      
-             <!--FIM IMAGEM FLUXOGRAMA-->
-        
-           
-   
-        <!--modal história-->
-		<div class="modal fade" id="modalhistoria" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-		  <div class="modal-dialog" role="document">
-		    <div class="modal-content">
-		      <div class="modal-header collor-exc">
-		        <h5 class="modal-title" id="exampleModalLabel" style="color:white;font-family: Andale Mono, monospace"">História</h5>
-		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-		          <span aria-hidden="true">&times;</span>
-		        </button>
-		      </div>
-		      <div class="modal-body">
-		        <p style="font-family: Andale Mono, monospace">A empresa Excalibur Software Brasil, deu inicio da sua criação com a ideia de 6 engenheiros da computação em formação acadêmica. Gostamos de utilizar a tecnologia, então, começamos a mexer com o básico de hardware e software.<br/>  
-		        </p>	
-
-		        <p style="font-family: Andale Mono, monospace">
-                <br>
-                Somos uma empresa de tecnologia da informação com a finalidade de desenvolver aplicações web, tanto, sistemas de gerenciamento, quanto sites, aplicações desktop e mobile. 
-                <br><br>
-                Desenvolvimento Desktop: É para criação de programas onde você cliente não quer usar a internet para controlar seu negócio. Essa forma de projeto se comunica na maioria dos casos pela rede interna da sua empresa.
-                <br>
-                Desenvolvimento Web:  Criação de sites, formulários , Sistemas de gerenciamento na Web. É necessário uma conexão com a internet para acessar tanto o sistema quanto os dados. Dando assim, mais flexibilidade ao seu sistema, pois poderá usá-lo em qualquer lugar que provenha de internet.
-                <br><br>
-                Procuramos manter um trabalho tendo o acompanhamento do cliente para que tudo possa sair como solicitado. Garantindo assim total satisfação. 
-                </p>
-
-		      </div>
-		      <div class="modal-footer">
-		        <button type="button" class="btn btn-secondary collor-exc" data-dismiss="modal">Sair</button>
-		      </div>
-		    </div>
-		  </div>
-		</div>
-        <!--fim modal-->
-    <br><br><br><br>
     </div>
-   
-        <!--Contato-->
-        <div class="contact1" id="contato">
+
+    <div class="fotos-flex">
+        <div class="box-fotos">
+            <img class="rounded-circle w-100 p-3" src="imagens/breno-foto.jpg" alt="Generic placeholder image">
+            <div class="retina">
+                <p>Breno Américo</p>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#myModalBreno">Saiba mais</button>
+            </div>
+        </div>
+        <div class="box-fotos">
+            <img class="rounded-circle w-100 p-3" src="imagens/caio-foto.jpeg" alt="Foto de Caio Fernando">
+            <div class="retina">
+                <p>Caio Fernando</p>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#myModalCaio">Saiba mais</button>
+            </div>
+        </div>
+        <div class="box-fotos">
+            <img class="rounded-circle w-100 p-3" src="imagens/jaiton-foto.jpeg" alt="Generic placeholder image">
+            <div class="retina">
+                <p>Jailton Lima</p>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#myModalJailton">Saiba mais</button>
+            </div>
+        </div>
+        <div class="box-fotos">
+            <img class="rounded-circle w-100 p-3" src="imagens/jam-foto.png" alt="Generic placeholder image">
+            <div class="retina">
+                <p>Jammessom Cabral</p>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#myModalJam">Saiba mais</button>
+            </div>
+        </div>
+        <div class="box-fotos">
+            <img class="rounded-circle w-100 p-3" src="imagens/jucelino-foto.jpg" alt="Generic placeholder image">
+            <div class="retina">
+                <p>Jucelino Maciel</p>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#myModalJucelino">Saiba mais</button>
+            </div>
+        </div>
+        <div class="box-fotos">
+            <img class="rounded-circle w-100 p-3" src="imagens/well-foto.jpeg" alt="Generic placeholder image">
+            <div class="retina">
+                <p>Wellington Monteiro</p>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#myModalWell">Saiba mais</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="myModalBreno" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header collor-exc">
+                    <div class="container center">
+                        <img class="rounded-circle w-25 p-3 transbox" src="imagens/breno-foto.jpg">
+                        <h4 class="transbox" id="myModalLabel" style="color: white">Breno Américo</h4>
+                    </div>
+                </div>
+                <div class="modal-body" style="opacity: 1;">
+                    <h5>IDADE: 22</h5> <br><br>
+                    <h5>LINGUAGENS CONHECIDAS: </h5>
+
+                    <img src="imagens/php.png" alt="PHP">
+                    <img src="imagens/sql.png" alt="SQL">
+                    <img src="imagens/java.png" alt="JAVA"> <br> <br>
+                    Desktop: Java <br>
+                    Backend: PHP <br>
+                    Banco de Dados: SQL Server e PostgreSQL<br><br>
+                    <h5>ONDE TRABALHOU: </h5> ExcSO - (Sócio) <br> <br>
+                    <H5>E-MAIL: </H5> brenoxamerico@gmail.com<br>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default collor-exc" data-dismiss="modal" style="color: white">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="myModalCaio" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header collor-exc">
+                    <div class="container center ">
+                        <img class="rounded-circle w-25 p-3 transbox" src="imagens/caio-foto.jpeg">
+                        <h4 class="transbox" id="myModalLabel" style="color: white">Caio Fernando</h4>
+                    </div>
+                </div>
+                <div class="modal-body" style="opacity: 1;">
+                    <h5>IDADE: </h5>21 Anos <br><br>
+                    <h5>LINGUAGENS CONHECIDAS: </h5>
+                    <img src="imagens/htmk-32.png" alt="html5">
+                    <img src="imagens/css.png" alt="CSS">
+                    <img src="imagens/javascript.png" alt="JAVASCRIPT">
+                    <img src="imagens/java.png" alt="JAVA">
+                    <img src="imagens/python.png" alt="Python">
+                    <img src="imagens/sql.png" alt="SQL"> <br> <br>
+                    Front-End(HTML, CSS e JavaScript) <br>
+                    Desktop: Java <br>
+                    Backend: Python <br>
+                    Banco de Dados: SQL <br><br>
+
+                    <h5>ONDE TRABALHOU: </h5>ExcSO <br><br>
+                    <H5>E-MAIL: </H5>caiofsr13@gmail.com <br><br>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default collor-exc" data-dismiss="modal" style="color: white">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="myModalJailton" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header collor-exc">
+                    <div class="container center ">
+                        <img class="rounded-circle w-25 p-3 transbox" src="imagens/jaiton-foto.jpeg">
+                        <h4 class="transbox" id="myModalLabel" style="color:white">Jailton Lima</h4>
+                    </div>
+                </div>
+                <div class="modal-body" style="opacity: 1;">
+                    <h5>IDADE: </h5> <br><br>
+                    <h5>LINGUAGENS CONHECIDAS: </h5> <br>
+                    <h5>ONDE TRABALHOU: </h5> <br><br>
+                    <H5>E-MAIL: </H5> <br><br>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default collor-exc" data-dismiss="modal" style="color: white">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="myModalJam" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header collor-exc">
+                    <div class="container center ">
+                        <img class="rounded-circle w-25 p-3 transbox" src="imagens/jam-foto.png">
+                        <h4 class="transbox" id="myModalLabel" style="color: white">Jammessom Cabral</h4>
+                    </div>
+                </div>
+                <div class="modal-body" style="opacity: 1;">
+                    <h5>IDADE: </h5> 30 anos <br>
+                    <h5>LINGUAGENS CONHECIDAS: </h5>
+                    <img src="imagens/htmk-32.png" alt="html5">
+                    <img src="imagens/css.png" alt="CSS">
+                    <img src="imagens/php.png" alt="PHP">
+                    <img src="imagens/java.png" alt="JAVA">
+                    <img src="imagens/mysql.png" alt="MySql"> <br> <br>
+                    Front-End: HTML-5 CSS <br>
+                    BackEnd: PhpPdo <br>
+                    Desktop: Java <br>
+                    Banco de Dados: MySql <br><br>
+                    <h5>ONDE TRABALHOU: </h5>Clube Náutico Capibaribe - ( Encarregado de Secretaria)
+                    <br> UPA IBURA - (Auxiliar de Informatica)
+                    <br>UPA CURADO - (Tecnico de Informatica )
+                    <br> ExcSO - (Sócio)<br>
+                    <H5>E-MAIL: </H5> jammessoncabral@gmail.com<br>
+                    <a href="https://jamcabral.com.br/">Blog pessoal</a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default collor-exc" data-dismiss="modal" style="color: white">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="myModalJucelino" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header collor-exc">
+                    <div class="container center">
+                        <img class="rounded-circle w-25 p-3 transbox" src="imagens/jucelino-foto.jpg">
+                        <h4 class="transbox" id="myModalLabel" style="color: white">Jucelino Maciel</h4>
+                    </div>
+                </div>
+                <div class="modal-body" style="opacity: 1;">
+                    <h5>IDADE: </h5>21 Anos <br><br>
+                    <h5>LINGUAGENS CONHECIDAS: </h5>
+                    <img src="imagens/htmk-32.png" alt="html5">
+                    <img src="imagens/css.png" alt="CSS">
+                    <img src="imagens/javascript.png" alt="JAVASCRIPT">
+                    <img src="imagens/php.png" alt="PHP">
+                    <img src="imagens/java.png" alt="JAVA">
+                    <img src="imagens/sql.png" alt="SQLSERVER"> <br> <br>
+                    Front-End(HTML, CSS e JavaScript) <br>
+                    Desktop: Java <br>
+                    Bakcned: PHP <br>
+                    Banco de Dados: SQL <br><br>
+                    <h5>ONDE TRABALHOU: </h5>Unimed Recife e ExcSO <br><br>
+                    <h5>E-MAIL: </h5>jucelinojr6@gmail.com <br><br>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default collor-exc" data-dismiss="modal" style="color: white">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="myModalWell" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header collor-exc">
+                    <div class="container">
+                        <img class="rounded-circle w-25 p-3 transbox" src="imagens/well-foto.jpeg">
+                        <h4 class="transbox" id="myModalLabel" style="color:white">Wellington Monteiro</h4>
+                    </div>
+                </div>
+                <div class="modal-body" style="opacity: 1;">
+                    <h5>IDADE: </h5>22 Anos <br><br>
+                    <h5>LINGUAGENS CONHECIDAS: </h5>
+                    <img src="imagens/htmk-32.png" alt="html5">
+                    <img src="imagens/css.png" alt="CSS">
+                    <img src="imagens/javascript.png" alt="JAVASCRIPT">
+                    <img src="imagens/php.png" alt="PHP">
+                    <img src="imagens/java.png" alt="JAVA"> <br> <br>
+
+                    Front-End(HTML, CSS e JavaScript) <br>
+                    Desktop: Java <br>
+                    Backend: PHP <br><br>
+                    <h5>ONDE TRABALHOU: </h5>ExcSO <br><br>
+                    <H5>E-MAIL: </H5> <br><br>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default collor-exc" data-dismiss="modal" style="color: white">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="background text-center" id="portfolio">
+        <h4>Portfólio</h4>
+        <div class="formportfolio">
+
+        </div>
+    </div>
+
+    <div class="fluxograma">
+        <img src="imagens/oi.png" class="img-fluid" alt="Responsive image">
+    </div>
+
+    <div class="card-body background" id="sobre">
+        <img class="logo-principal" src="imagens/logo3.png" alt="Card image cap">
+        <div class="text-center">
+            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modalhistoria">História</a>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalhistoria" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header collor-exc">
+                    <h5 class="modal-title" id="exampleModalLabel" style="color:white">História</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>A empresa Excalibur Software Brasil, deu inicio da sua criação com a ideia de 6 engenheiros da computação em formação acadêmica. Gostamos de utilizar a tecnologia, então, começamos a mexer com o básico de hardware e software.<br></p>
+                    <p><br>Somos uma empresa de tecnologia da informação com a finalidade de desenvolver aplicações web, tanto, sistemas de gerenciamento, quanto sites, aplicações desktop e mobile.<br><br>Desenvolvimento Desktop: É para criação de programas onde você cliente não quer usar a internet para controlar seu negócio. Essa forma de projeto se comunica na maioria dos casos pela rede interna da sua empresa.<br><br>Desenvolvimento Web: Criação de sites, formulários , Sistemas de gerenciamento na Web. É necessário uma conexão com a internet para acessar tanto o sistema quanto os dados. Dando assim, mais flexibilidade ao seu sistema, pois poderá usá-lo em qualquer lugar que provenha de internet.<br><br>Procuramos manter um trabalho tendo o acompanhamento do cliente para que tudo possa sair como solicitado. Garantindo assim total satisfação.
+                    </p>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary collor-exc" data-dismiss="modal">Sair</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-deck">
+        <div class="card">
+            <div class="img-card">
+                <img class="card-img-top" src="imagens/erp.png" alt="Card image cap">
+            </div>
+            <div class="card-body text-info">
+                <h5 class="card-title">Sistema Integrado de Gestão Empresarial.</h5>
+                <p class="card-text">
+                    O ERP é um software que melhora a gestão das empresas, automatizando os processos e integrando as atividades
+                    de Vendas, Finanças, Contabilidade, Fiscal, Estoque, Compras, Recursos Humanos, Produção e Logística.</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted"></small>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="img-card">
+                <img class="card-img-top1" src="imagens/mobileicon.png" alt="Card image cap">
+            </div>
+            <div class="card-body text-info">
+                <h5 class="card-title">Mobile</h5>
+                <p class="card-text">Trabalhamos com Desenvolvimento para aplicativos Hibridos, onde o mesmo funciona para todas as plataformas seja , Android , Iphone , Tablet, Ipad etc.</p>
+                <div>
+                    <img class="card-img-top" src="imagens/android.png" alt="Card image cap">
+                    <img class="card-img-top" src="imagens/macos.png" alt="Card image cap">
+                </div>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted"></small>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="img-card">
+                <img class="card-img-top2" src="imagens/webicon.png" alt="Card image cap">
+            </div>
+            <div class="card-body text-info">
+                <h5 class="card-title">Web</h5>
+                <p class="card-text">Criamos sites para que você possa apresentar seu negócio na rede e atrair clientes. Assim como Sistemas de gerenciamento web de acordo com os requisitos apresentados por você, cliente.
+                </p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted"></small>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact1" id="contato">
         <div class="container-contact1">
             <div class="contact1-pic js-tilt" data-tilt>
-                
+
                 <h1>Contato</h1>
-                
+
                 <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Recife, PE</p>
                 <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Telefone:: +55 81 99740-7405</p>
                 <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: excbrso@gmail.com.br</p>
             </div>
 
             <form class="contact1-form validate-form" id="formcontato">
-               <span class="contact1-form-title">
+                <span class="contact1-form-title">
                     <a><img src="imagens/email.png"></a>
                 </span>
 
-                <div class="wrap-input1 validate-input" data-validate = "Precisamos que digite seu nome">
+                <div class="wrap-input1 validate-input" data-validate="Precisamos que digite seu nome">
                     <input class="input1" type="text" name="name" placeholder="Nome">
                     <span class="shadow-input1"></span>
                 </div>
 
-                <div class="wrap-input1 validate-input" data-validate = "Precisamos que digite seu email: xxx@xxx.com">
+                <div class="wrap-input1 validate-input" data-validate="Precisamos que digite seu email: xxx@xxx.com">
                     <input class="input1" type="text" name="email" placeholder="Email">
                     <span class="shadow-input1"></span>
                 </div>
 
-                <div class="wrap-input1 validate-input" data-validate = "Precisamos que digite o assunto">
+                <div class="wrap-input1 validate-input" data-validate="Precisamos que digite o assunto">
                     <input class="input1" type="text" name="subject" placeholder="Assunto">
                     <span class="shadow-input1"></span>
                 </div>
 
-                <div class="wrap-input1 validate-input" data-validate = "Precisamos que digite sua mensagem">
+                <div class="wrap-input1 validate-input" data-validate="Precisamos que digite sua mensagem">
                     <textarea class="input1" name="message" placeholder="Mensagem"></textarea>
                     <span class="shadow-input1"></span>
                 </div>
@@ -330,222 +455,33 @@
         </div>
     </div>
 
-    <!--script formulario-->
     <script>
-    $("#enviarformulario").click(function(){
+        $("#enviarformulario").click(function () {
             $.ajax({
                 type: "POST",
                 url: "email.php",
                 data: $("#formcontato").serialize(),
-                success: function(data){
+                success: function (data) {
                     $("#").html(data);
                 }
             });
         });
         /*setTimeout(function() {
-        $('#msg').fadeOut('fast');
-    }, 2000);*/
+            $('#msg').fadeOut('fast');
+        }, 2000);*/
     </script>
-    <!--fim script formulario-->
 
-    <!-- FIM CONTATO!-->
-    
-    <!-- Modal -->
-    <div class="modal fade" id="myModalBreno" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header collor-exc">
-                            <div class="container center">
-                                    <img class="rounded-circle w-25 p-3 transbox" src="imagens/breno-foto.jpg">
-                                    <h4 class="transbox" id="myModalLabel" style="color: white">Breno Américo</h4>
-                            </div>
-                    </div>
-                    <div class="modal-body" style="opacity: 1;">
-                            <h5>IDADE: 22</h5> <br><br>
-                            <h5>LINGUAGENS CONHECIDAS: </h5> 
-                            
-                            <img src="imagens/php.png" alt="PHP">
-                            <img src="imagens/sql.png" alt="SQL"> 
-                            <img src="imagens/java.png" alt="JAVA"> <br> <br>
-                            Desktop: Java <br>
-                            Backend: PHP <br>
-                            Banco de Dados: SQL Server e PostgreSQL<br><br>                                    
-                            <h5>ONDE TRABALHOU: </h5> ExcSO - (Sócio) <br> <br>            
-                            <H5>E-MAIL: </H5> brenoxamerico@gmail.com<br>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default collor-exc" data-dismiss="modal" style="color: white">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="modal fade" id="myModalCaio" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header collor-exc">
-                            <div class="container center ">
-                                    <img class="rounded-circle w-25 p-3 transbox" src="imagens/caio-foto.jpeg">
-                                    <h4 class="transbox" id="myModalLabel" style="color: white">Caio Fernando</h4>
-                            </div>
-                    </div>
-                    <div class="modal-body" style="opacity: 1;">
-                            <h5>IDADE: </h5>21 Anos <br><br>
-                            <h5>LINGUAGENS CONHECIDAS: </h5>
-                            <img src="imagens/htmk-32.png" alt="html5"> 
-                            <img src="imagens/css.png" alt="CSS"> 
-                            <img src="imagens/javascript.png" alt="JAVASCRIPT"> 
-                            <img src="imagens/java.png" alt="JAVA"> 
-                            <img src="imagens/python.png" alt="Python"> 
-                            <img src="imagens/sql.png" alt="SQL"> <br> <br> 
-                            Front-End(HTML, CSS e JavaScript) <br>
-                            Desktop: Java  <br>
-                            Backend: Python <br>
-                            Banco de Dados: SQL <br><br>
-
-                            <h5>ONDE TRABALHOU: </h5>ExcSO <br><br>
-                            <H5>E-MAIL: </H5>caiofsr13@gmail.com <br><br>
-                    </div>
-                    <div class="modal-footer">
-                            <button type="button" class="btn btn-default collor-exc" data-dismiss="modal" style="color: white">Close</button>    
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="modal fade" id="myModalJailton" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header collor-exc">
-                            <div class="container center ">
-                                    <img class="rounded-circle w-25 p-3 transbox" src="imagens/jaiton-foto.jpeg">
-                                    <h4 class="transbox" id="myModalLabel" style="color:white">Jailton Lima</h4>
-                            </div>
-                    </div>
-                    <div class="modal-body" style="opacity: 1;">
-                            <h5>IDADE: </h5> <br><br>
-                            <h5>LINGUAGENS CONHECIDAS: </h5> <br>
-                            <h5>ONDE TRABALHOU: </h5> <br><br>
-                            <H5>E-MAIL: </H5> <br><br>
-                    </div>
-                    <div class="modal-footer">
-                            <button type="button" class="btn btn-default collor-exc" data-dismiss="modal" style="color: white">Close</button>      
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="modal fade" id="myModalJam" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header collor-exc">
-                            <div class="container center ">
-                                    <img class="rounded-circle w-25 p-3 transbox" src="imagens/jam-foto.png">
-                                    <h4 class="transbox" id="myModalLabel" style="color: white">Jammessom Cabral</h4>                            
-                            </div>
-                            </div>
-                    <div class="modal-body" style="opacity: 1;">
-                            <h5>IDADE: </h5> 30 anos <br>
-                            <h5>LINGUAGENS CONHECIDAS: </h5> 
-                            <img src="imagens/htmk-32.png" alt="html5"> 
-                            <img src="imagens/css.png" alt="CSS"> 
-                            <img src="imagens/php.png" alt="PHP"> 
-                            <img src="imagens/java.png" alt="JAVA"> 
-                            <img src="imagens/mysql.png" alt="MySql"> <br> <br> 
-                            Front-End:          HTML-5   CSS    <br>
-                            BackEnd:            PhpPdo          <br>
-                            Desktop:            Java            <br>
-                            Banco de Dados:     MySql           <br><br>
-                            <h5>ONDE TRABALHOU: </h5>Clube Náutico Capibaribe - ( Encarregado de Secretaria)  
-                            <br> UPA IBURA - (Auxiliar de Informatica) 
-                            <br>UPA CURADO - (Tecnico de Informatica )
-                            <br> ExcSO - (Sócio)<br>
-                            <H5>E-MAIL: </H5> jammessoncabral@gmail.com<br>
-                            <a href="https://jamcabral.com.br/">Blog pessoal</a>
-                    </div>
-                    <div class="modal-footer">
-                            <button type="button" class="btn btn-default collor-exc" data-dismiss="modal" style="color: white">Close</button>                  
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="modal fade" id="myModalJucelino" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header collor-exc">
-                            <div class="container center">
-                                    <img class="rounded-circle w-25 p-3 transbox" src="imagens/jucelino-foto.jpg">
-                                    <h4 class="transbox" id="myModalLabel" style="color: white">Jucelino Maciel</h4>
-                            </div>
-                    </div>
-                    <div class="modal-body" style="opacity: 1;">
-                            <h5>IDADE: </h5>21 Anos <br><br>
-                            <h5>LINGUAGENS CONHECIDAS: </h5>
-                            <img src="imagens/htmk-32.png" alt="html5"> 
-                            <img src="imagens/css.png" alt="CSS"> 
-                            <img src="imagens/javascript.png" alt="JAVASCRIPT"> 
-                            <img src="imagens/php.png" alt="PHP"> 
-                            <img src="imagens/java.png" alt="JAVA"> 
-                            <img src="imagens/sql.png" alt="SQLSERVER"> <br> <br> 
-                            Front-End(HTML, CSS e JavaScript) <br>
-                            Desktop: Java <br>
-                            Bakcned: PHP <br>
-                            Banco de Dados: SQL <br><br>
-                            <h5>ONDE TRABALHOU: </h5>Unimed Recife e ExcSO <br><br>
-                            <h5>E-MAIL: </h5>jucelinojr6@gmail.com <br><br>
-                    </div>
-                    <div class="modal-footer">
-                            <button type="button" class="btn btn-default collor-exc" data-dismiss="modal" style="color: white">Close</button>                    
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="modal fade" id="myModalWell" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header collor-exc">
-                            <div class="container">
-                                    <img class="rounded-circle w-25 p-3 transbox" src="imagens/well-foto.jpeg">
-                                    <h4 class="transbox" id="myModalLabel" style="color:white">Wellington Monteiro</h4>
-                            </div>
-                    </div>
-                    <div class="modal-body" style="opacity: 1;">
-                            <h5>IDADE: </h5>22 Anos <br><br>
-                            <h5>LINGUAGENS CONHECIDAS: </h5>
-                            <img src="imagens/htmk-32.png" alt="html5"> 
-                            <img src="imagens/css.png" alt="CSS"> 
-                            <img src="imagens/javascript.png" alt="JAVASCRIPT"> 
-                            <img src="imagens/php.png" alt="PHP"> 
-                            <img src="imagens/java.png" alt="JAVA">  <br> <br> 
-                            
-                            Front-End(HTML, CSS e JavaScript)       <br>
-                            Desktop: Java                           <br>
-                            Backend: PHP                            <br><br>
-                            <h5>ONDE TRABALHOU: </h5>ExcSO <br><br>
-                            <H5>E-MAIL: </H5> <br><br>
-                    </div>
-                    <div class="modal-footer">
-                            <button type="button" class="btn btn-default collor-exc" data-dismiss="modal" style="color: white">Close</button>                    
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--Rodape-->
     <footer id="bg-rodape">
         <div class="rodape">
-        <a href="#"><img src="imagens/1234.png" width="50" height="50" class="w3-hide-small"></a>
+            <a href="#"><img src="imagens/1234.png" width="50" height="50" class="w3-hide-small"></a>
             <p>Produced By EXCalibur | © Copyright</p>
             <div>
                 <p>Siga nas redes sociais:</p>
-                    <div id="sociais">
-                        <a href="https://www.facebook.com/groups/2066089736964755/?source=unknown" target="_blank"><img src="imagens/facebook.png"></a>
-                        <a href="#"><img src="imagens/instagram.png"></a>
-                        <a href="#"><img src="imagens/twitter.png"></a>
-                        <a href="#"><img src="imagens/youtube.png   "></a>
+                <div id="sociais">
+                    <a href="https://www.facebook.com/groups/2066089736964755/?source=unknown" target="_blank"><img src="imagens/facebook.png"></a>
+                    <a href="#"><img src="imagens/instagram.png"></a>
+                    <a href="#"><img src="imagens/twitter.png"></a>
+                    <a href="#"><img src="imagens/youtube.png   "></a>
                 </div>
             </div>
         </div>
@@ -555,6 +491,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB50TafR1ryI4Czg1jwIfUXpzKGroE1pPU&callback=myMap"></script>
-
 </body>
+
 </html>

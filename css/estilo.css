@@ -1,4 +1,5 @@
-* {
+*,
+body {
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -6,37 +7,95 @@
 
 /* Ids */
 
-.carousel{
+.carousel {
   width: 100%;
   height: 52%;
 }
+
 .icon {
   height: 50px;
 }
 
-#bg-rodape{
-    padding: 3.125em;
-    background-color: black;
+#bg-rodape {
+  padding: 3.125em;
+  background-color: black;
 }
 
 #bg-rodape p {
   color: white;
 }
 
+#enviarformulario {
+  padding-top: 13px;
+}
+
 #sobre {
-  padding-top: 4%;
-  margin-top: 4%;
-  /*  background:lightgray; */
+  margin: 0 0 1em 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center
 }
 
 /* Classes */
-.content {
-  padding-top: 5%;
+.logo-principal {
+  width: 50%;
 }
 
-.rodape{
-    display: flex;
-    justify-content: space-between;
+.img-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  margin-bottom: 0.750em;
+  margin-top: 0.625em;
+}
+
+.text-info {
+  text-align: center;
+}
+
+.card-deck {
+  margin-bottom: 1em;
+}
+
+.card-img-top {
+  width: 20%;
+}
+
+.card-img-top1 {
+  width: 13%;
+}
+
+.card-img-top2 {
+  width: 28%;
+}
+
+.card {
+  border-radius: 20px;
+}
+
+.card-deck {
+  margin: 0;
+  padding: 0;
+}
+
+.modal-body {
+  opacity: 1;
+}
+
+.content {
+  padding-top: 3.750em;
+}
+
+.fluxograma {
+  margin: 0 0 1em 0;
+}
+
+.rodape {
+  display: flex;
+  justify-content: space-between;
 }
 
 .navbar {
@@ -44,6 +103,7 @@
   width: 100% !important;
   z-index: 1 !important;
   font-size: 100px !important;
+  padding: 0;
 }
 
 .card-body {
@@ -55,43 +115,45 @@
 }
 
 .fotos-flex {
-  display: flex;
+  display: flex !important;
+  margin: 1em 0 1em 0;
 }
 
-.background{
-    /* padding-top: 3.125em;
+.background {
+  /* padding-top: 3.125em;
     padding-bottom: 0.125em;
     background-color: lightgray; */
-    background-image: url("background5.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  background-image: url("background5.jpg");
+  background-repeat: round;
+  background-attachment: fixed;
 }
+
 .box-fotos {
   position: relative;
   width: 350px;
-  overflow: hidden;
+  overflow:  hidden;
 }
 
-.box-fotos > img {
+.box-fotos>img {
   width: 100%;
   border-radius: 2px;
   -webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
-    -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
-      -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
-        -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
-          transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+  -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+  -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+  -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+  transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
 }
 
-.box-fotos:hover > img {
+.box-fotos:hover>img {
   -webkit-transform: scale(1.7);
-	   -moz-transform: scale(1.7);
-	    -ms-transform: scale(1.7);
-	     -o-transform: scale(1.7);
-          transform: scale(1.7);
+  -moz-transform: scale(1.7);
+  -ms-transform: scale(1.7);
+  -o-transform: scale(1.7);
+  transform: scale(1.7);
 }
 
 .box-fotos .retina {
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 100%;
   top: 0;
@@ -100,12 +162,12 @@
   /*  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5); */
   border-radius: 5px;
   text-align: center;
-  padding: 1.875em;
+  padding: 0.2em;
   -webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
-    -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
-      -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
-        -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
-          transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+  -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+  -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+  -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+  transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
 }
 
 .box-fotos:hover .retina {
@@ -118,12 +180,11 @@
   cursor: default;
 }
 
-.simboloarquivo {
+#portfolio {
+  margin: 0 0 1em 0;
+}
 
-
-  }
-
-.formportfolio{
+.formportfolio {
   margin: 0 auto;
   font-size: 16px;
   max-width: 80%;
